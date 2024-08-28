@@ -8,13 +8,13 @@ import './index.css';
 import Login from './Components/auth/login';
 import SignUp from './Components/auth/signup';
 import Home from './Components/Home';
-import Navbar from './Components/Navbar';
+import NavbarComponent from './Components/Navbar';
 
 function App() {
   
   return (
     <Router>
-      <Navbar />
+      <NavbarComponent />
       <div className="container my-4">
         <Routes>
           <Route path="/" element={<SignUp />} />

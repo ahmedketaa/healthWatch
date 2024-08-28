@@ -33,7 +33,7 @@ function Login() {
     return (
         <div className="login-container">
             <div className="container">
-            <div className="card w-50 m-auto p-5">
+            <div className="card w-lg-50 m-auto p-5">
             <h2 className="text-primary">Login</h2>
                 <form onSubmit={handleSubmit} className="form ">
                     <div className="mb-3">
