@@ -1,0 +1,23 @@
+/* Auth.css */
+.auth-container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .auth-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .auth-container .form-group {
+    margin-bottom: 15px;
+  }
+  .auth-container .form-control {
+    border-radius: 0.375rem;
+  }
+  .auth-container .btn-primary {
+    width: 100%;
+  }
+  
